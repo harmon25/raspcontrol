@@ -1,0 +1,199 @@
+/*
+ *  Commun style
+ */
+
+body {
+  background: #303130;
+}
+#content {
+  background: #fff;
+  padding: 40px 20px;
+}
+.container, .navbar .container {
+  max-width: 700px;
+}
+
+
+.center {
+  text-align: center;
+}
+
+/*
+ *  Header
+ */
+
+header {
+  margin: 0;
+  height: 140px;
+  color: #fff;
+  background: #464646;
+  background: -moz-linear-gradient(top,#464646 0%,#303130 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#464646),color-stop(100%,#303130));
+  background: -webkit-linear-gradient(top,#464646 0%,#303130 100%);
+  background: -o-linear-gradient(top,#464646 0%,#303130 100%);
+  background: -ms-linear-gradient(top,#464646 0%,#303130 100%);
+  background: linear-gradient(to bottom,#464646 0%,#303130 100%);
+}
+
+header h1 {
+  margin: 32px 0 -10px 0;
+  font-size: 40px;
+  font-weight: normal;
+  letter-spacing: 0px;
+}
+
+header a,
+header a:hover,
+header a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+header a:hover {
+  color: #ededed;
+}
+
+header h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  color: #aaa;
+}
+
+header img {
+  float: left;
+  margin: 15px 0 0 0;
+}
+
+/*
+ * Pages
+ */
+
+.form-login {
+  margin: 20px 0 60px 0;
+}
+.form-login input {
+  margin-bottom: 10px;
+}
+
+.details table {
+  width: 100%;
+}
+.details tr {
+  vertical-align: top;
+  /*border-bottom: 1px solid #dedede;*/
+}
+.details td {
+  padding: 20px 0;
+}
+.details td.check {
+  font-weight: bold;
+  min-width: 100px;
+}
+.details td.icon {
+  min-width: 25px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.details .storage td {
+  padding: 15px 0;
+}
+
+.details .progress {
+  margin-bottom: 8px;
+}
+.details .storage .progress {
+  margin-top: 10px;
+}
+
+.rapid-status div {
+  margin-top: 20px;
+}
+.infos div {
+  margin-bottom: 20px;
+}
+
+.services td.check {
+  width: 125px;
+}
+.services td.icon {
+  width: 60px;
+}
+
+.disks td.check {
+  width: 125px;
+}
+.disks td.icon {
+  width: 60px;
+}
+
+/*
+ *  Footer
+ */
+
+footer {
+  margin:0;
+  padding: 30px 0 0 0;
+  color: #fff;
+  background: #464646;
+  background: -moz-linear-gradient(top,#464646 0%,#303130 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#464646),color-stop(100%,#303130));
+  background: -webkit-linear-gradient(top,#464646 0%,#303130 100%);
+  background: -o-linear-gradient(top,#464646 0%,#303130 100%);
+  background: -ms-linear-gradient(top,#464646 0%,#303130 100%);
+  background: linear-gradient(to bottom,#464646 0%,#303130 100%);
+  height: 80px;
+}
+
+footer p {
+  margin: 0;
+}
+footer a {
+  color: #ccc;
+}
+footer a:hover {
+  color: #fff;
+}
+
+/*
+ * Mediaqueries
+ */
+@media (max-width: 770px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .container,
+  .progress {
+    max-width: 100% !important;
+  }
+  .navbar {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+  header img {
+    display: none;
+  }
+  header {
+    padding: 0 10px 0 20px;
+    height: 120px;
+  }
+  footer {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/*
+ * Bootstrap override
+ */
+.popover {
+	width: 650px;
+	max-width: 650px;
+}
+.infos div .popover-content {
+	margin-bottom: 0px;
+}
+.popover-content table {
+	margin-bottom: 0px;
+}
