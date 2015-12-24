@@ -21,10 +21,12 @@ if ($rewriting) {
     define('DETAILS', './details');
     define('SERVICES', './services');
     define('DISKS', './disks');
+    define('GPIO', './gpio');
 } else {
     define('LOGOUT', './login.php?logout');
     define('DETAILS', './?page=details');
     define('SERVICES', './?page=services');
     define('DISKS', './?page=disks');
+    define('GPIO', './?page=gpio');
 }
 ?>
