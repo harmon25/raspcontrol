@@ -2,7 +2,7 @@
 
 Raspcontrol is a web control centre written in PHP for Raspberry Pi.
 
-This is a Fork of the orignal Raspcontrol by Bioshox and Harmon25 - It appears the repo is no longer available...
+This is a Fork of the orignal Raspcontrol by Bioshox - It appears the repo is no longer available...
 
 ***
 
