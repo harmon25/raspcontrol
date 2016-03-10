@@ -130,7 +130,7 @@ function shell_to_html_table_result($shellExecOutput) {
                 </div>
                 <div id="popover-cpu-head" class="hide">Top CPU eaters</div>
                 <div id="popover-cpu-body" class="hide"><?php echo shell_to_html_table_result($cpu_heat['detail']); ?></div>
-                heat: <span class="text-info"><?php echo $cpu_heat['degrees']; ?>°C</span>
+                heat: <span class="text-info"><?php echo $cpu_heat['degrees']; ?>°F</span>
             </td>
         </tr>
 
