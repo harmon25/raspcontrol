@@ -94,5 +94,3 @@ function icon_alert($alert) {
         </div>
     </div>
 </div>
-
-</div>
