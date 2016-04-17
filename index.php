@@ -118,9 +118,9 @@ if (isset($_GET['action']) && isset($_GET['username']) && isset($_GET['password'
                         <label for="password">Password</label>
                         <input type="password" name="password" id="password" value="" class="text ui-widget-content ui-corner-all" />
                     </fieldset>
+                </form>
             </center>
-        </form>
-    </div>
+        </div>
 
     <?php if ($display) : ?>
 
