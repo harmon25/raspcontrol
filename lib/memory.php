@@ -20,7 +20,7 @@ class Memory {
 
         $ramDetails = $ssh->shell_exec_noauth('ps -e -o pmem,user,args --sort=-pmem | sed "/^ 0.0 /d" | head -' . self::$DETAIL_LINE_COUNT);
 
-        $result['percentage'] = round($available / $total * 100);
+        $result['percentage'] = round(($total - $available) / $total * 100);
         if ($result['percentage'] >= '80')
             $result['alert'] = 'warning';
         else
